@@ -1,12 +1,8 @@
 package com.capgemini.wsb.persistence.entity;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.Collection;
-import java.util.List;
-
-import javax.persistence.*;
-import javax.print.Doc;
-import javax.validation.constraints.Min;
 
 @Entity
 @Table(name = "PATIENT")
