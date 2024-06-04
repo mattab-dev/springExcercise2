@@ -2,12 +2,10 @@ package com.capgemini.wsb.persistence.dao.impl;
 
 import com.capgemini.wsb.persistence.dao.DoctorDao;
 import com.capgemini.wsb.persistence.entity.DoctorEntity;
-import com.capgemini.wsb.persistence.entity.PatientEntity;
 import com.capgemini.wsb.persistence.enums.Specialization;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.Query;
-import java.util.ArrayList;
 import java.util.List;
 
 @Repository
